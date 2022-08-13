@@ -24,7 +24,7 @@ def start(update, context):
  Используй эти команды:\n\
  /add <имя> <дату> <время> - добавить новое событие или дедлайн \n \
  /remove Удаляет задание из списка дел (в стадии бета :D)\n \
- покажи список дел - Показыает весь список дел')
+ 
     else:
         context.bot.send_message(update.effective_chat.id, f"{' '.join(arg)}")
 
